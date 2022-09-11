@@ -1,0 +1,32 @@
+
+{% extends 'base.html' %}
+
+{% block content %}
+{% load static %}
+    <div class="register-container">
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Correo</th>
+                    <th>Ciudad</th>
+                    <th>Nombres</th>
+                    <th>Apellidos</th>
+                </tr>
+            </thead>
+        
+            <tbody>
+            {% for user in users %} 
+                <tr>
+                    <td>{{user.email}}</td> 
+                    <td>{{user.city}}</td>
+                    <td>{{user.first_name}}</td>
+                    <td>{{user.last_name}}</td>
+                    <td><img src="{% static 'Deposita-icon.svg' %}" alt="" width="50px" height="50px"></td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        
+        </table>
+    </div>
+{% endblock %}

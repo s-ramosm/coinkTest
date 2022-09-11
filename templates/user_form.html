@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+        <div class="card-container">
+
+            <form action="" method="post">
+                {% csrf_token %}
+                {{form.as_p}}
+                <button type="submit">Crear</button>
+            </form>
+            
+        </div>    
+    
+{% endblock %}

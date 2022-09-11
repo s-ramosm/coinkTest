@@ -1,0 +1,38 @@
+body {
+    background-color: #eafbf3;
+}
+
+.content {
+    justify-content: center;
+    display: flex;
+    position: relative;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    
+}
+
+nav {
+    display: flex;
+    margin: auto;  
+    font-family: 'Montserrat';
+    font-size: 22px;  
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+
+a:hover{
+    background-color: #0f7c34;
+    color: #b8f5d8;
+    transition: 0.5s;
+}
+
+.CV {
+    margin: 0 30px 0 30px;
+}

@@ -1,0 +1,41 @@
+.card-container{
+
+    color: #004b40;
+    background-color: #73ff5e;
+    border: solid 3px #0f7c34;
+    text-align: center;
+    padding: 5px;
+    width: 30%;
+    border-radius: 10px;
+    height: 400px;
+}
+
+.register-container{
+
+    color: #004b40;
+    background-color: #73ff5e;
+    border: solid 3px #0f7c34;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+input { 
+    width: 90%;
+    border-radius: 10px;
+    height: 30px;
+    border: 1px;
+}
+
+td {
+    text-align: left;
+    padding: 5px 10px 5px 10px;
+    background-color: #b8f5d8;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+th {
+    font-size: 10px;
+}

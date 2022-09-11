@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+{% load static %}
+<div class="CV">
+    <h1>Wilmer Sair Ramos Madera (Parzival)</h1> <br>
+    <p>Full-Stack developer with an emphasis on Backend, with experience in software development in
+        languages such as java, javascript and python and frameworks such as django, django-restframework
+        and react. With knowledge in agile methodologies such as Scrum. Proactive and self-taught.</p>
+    
+    <p>Soy un profesional con conocimientos en
+        leguajes como python, javascript, java. Con
+        experiencia en desarrollo backend y frontend
+        junto con frameworks como react, django, django-restframework 
+        capaz de trabajar en entornos con metodologias agiles</p>
+
+
+    <table>
+        <tbody>
+            <tr>
+                <td colspan="2">Sair Ramos</td>
+                <td rowspan="4"><img src="{% static 'Logo-Coink-neon.svg' %}" width="100px"></td>
+            </tr>
+            <tr>
+                <td colspan="2">Desarrollador Backend</td>
+            </tr>
+            <tr>
+                <td>Tel/Whatsapp:</td>
+                <td>3005741175</td>
+            </tr>
+            <tr>
+                <td>Correo:</td>
+                <td>saircontactoramos@gmail.com</td>
+            </tr>
+        </tbody>
+        
+    </table>
+</div>
+
+{% endblock %}
