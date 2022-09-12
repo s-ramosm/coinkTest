@@ -20,5 +20,5 @@ from users.views import parzival
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('users/' , include('users.urls')),
-    path('parzival/', parzival),
+    path('parzival/', parzival, name='desarrollador'),
 ]
