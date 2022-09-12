@@ -1,3 +1,5 @@
+from logging import exception
+from shutil import ExecError
 from django.shortcuts import render
 from .forms import userForm
 # Create your views here.
@@ -19,7 +21,19 @@ def createUser(request):
     else:
 
         form = userForm(request.POST)
-        user = form.save()
+
+        try:
+            user = form.save()
+        except:
+            return render(
+                request, 
+                'user_form.html',
+                {
+                    "form" :  userForm,
+                    "error" :  "El usuario ya existe"
+                }
+            )   
+
         return render(
             request, 
             'user_form.html',
