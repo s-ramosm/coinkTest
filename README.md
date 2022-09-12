@@ -1,6 +1,6 @@
 # coinkTest
 
-## Para la ejecucion es necesarion contar con python instalado en el pc 
+## Para la ejecucion es necesario contar con python instalado en el pc 
 ## Ejecutar los siguientes comandos
 
 - pip install -r requeriments.txt
