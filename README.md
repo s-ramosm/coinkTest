@@ -6,6 +6,6 @@
 - pip install -r requeriments.txt
 - python manage.py runserver
 
-## Para la ejecución de lo test ejecutar el siguiente comando
+## Para la ejecución de las pruebas unitarias ejecutar el siguiente comando
 
 - python manage.py test
